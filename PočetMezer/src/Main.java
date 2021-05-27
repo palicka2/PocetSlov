@@ -7,7 +7,7 @@ public class Main {
 
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
-	      File file = new File("M:\\Java IT\\PoèetMezer\\lm.txt"); 
+	      File file = new File("PoèetMezer\\lm.txt"); 
 	      String loremIpsum = new String(Files.readAllBytes(Paths.get(file.getName())));
 	      
 	      int Mezery = 0;
